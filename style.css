@@ -1,0 +1,79 @@
+.bg-cl {
+    background-color: yellow;
+}
+.box {
+    margin: 50px;
+}
+h1 {
+  text-align: center;
+font-size: 4rem;   
+    font-family: cursive;
+}
+h2 {
+  text-align: center; 
+    font-size: 2rem;  
+    font-family: cursive;
+}
+p {
+    font-size: 2rem; 
+    font-family: cursive;
+}
+.text {
+    text-align: center; 
+}
+ul {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2rem;
+    list-style: none;
+    padding: 40px 0;
+    
+}
+li {
+    display: inline;
+    background-color: orange;
+    padding: 20px 40px;
+    margin: 0 20px;
+    
+}
+li:hover {
+    background-color: blueviolet;
+    padding: 30px 50px;
+    color: white;
+}
+
+.swara {
+    background-color: orange;
+    padding: 10px 60px;
+    font-size: 2rem; 
+    font-family: cursive;
+    
+}
+.swara:hover {
+    background-color: blueviolet;
+    
+    color: white;
+}
+.swara:focus {
+    background-color: red !important;
+    
+    color: white;
+}
+
+.swara-2 {
+    background-color: orange;
+    padding: 10px 30px;
+    font-size: 2rem; 
+    font-family: cursive;
+    
+}
+.swara-2:hover {
+    background-color: blueviolet;
+    
+    color: white;
+}
+.swara-2:focus {
+    background-color: red !important;
+    
+    color: white;
+}
