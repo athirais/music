@@ -32,9 +32,27 @@ a {
 /* index */
 
 
+.prevNext {
+    width: 100%;
+    background-color: #FF6464;
+    padding: 2rem;
+    text-align: center;
+    border-style: none;
+    
+    color: white;
+    position: relative;
+  left: 0;
+  bottom: 0;
+}
+.prevNext:hover{
+    background-color: #5BE7A9;
+    color: black;
+}
 
-
-
+.prevNexttable {
+    width: 100%;
+    bottom: 0;
+}
 
 .contentlist {
     align-content: center;
@@ -131,13 +149,14 @@ a {
 
 
 .tableborder {
-    border: 0.2rem solid black; 
+    border: 1rem dotted black; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
     border-radius: 5rem;
     border-collapse: separate;
     padding: 5rem;
+    margin-bottom: 5rem;
 }
 
 th {
@@ -179,6 +198,7 @@ th {
     border-radius: 5rem;
     border-collapse: separate;
     background-color: #FF6464;
+    margin-bottom: 5rem;
 }
 
 
@@ -195,40 +215,104 @@ th {
     color: black;
 }
 
-********************
 
-.swara {
-    background-color: orange;
-    padding: 10px 60px;
-    font-size: 2rem; 
-    font-family: cursive;
+/*Lesson 4*/
+
+
+.animalBird {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border-spacing: 0.5rem;
+    border-radius: 5rem;
+    border-collapse: separate;
+    border: 1rem dotted black;
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 10rem;
     
-}
-.swara:hover {
-    background-color: blueviolet;
     
-    color: white;
-}
-.swara:focus {
-    background-color: red !important;
-    
-    color: white;
 }
 
-.swara-2 {
-    background-color: orange;
-    padding: 10px 30px;
-    font-size: 2rem; 
-    font-family: cursive;
+
+.animalbirdcell {
+ 
+    border-radius: 5rem;
+    text-align: center;
+    color: black;
+    padding: 2rem !important;
+
+}
+
+.animalbirdcell:hover {
+    background-color: #5BE7A9;
+    color: black;
+}
+
+.animalbirdpic {
+    max-height: 10rem;
+    max-width: 10rem;
+}
+
+
+
+/* Lesson 5 */
+
+
+
+.sapasatable {
+    
+    margin: 2rem;
+    border-radius: 2rem;
+    border-collapse: separate;
+     border-spacing: 1.5rem;
+    border: 0.5rem dotted black;
+}
+
+.sapasacell {
+    
+ 
+    border-radius: 5rem;
+    text-align: center;
+    color: black;
+    padding: 1.5rem 2rem;
+}
+.sapasabtn {
+    width: 50%;
+    height: 50%;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5rem;
+    align-content: center;
+    text-align: center;
+    border: none;
+    color: black;
+    background-color: black;
     
 }
-.swara-2:hover {
-    background-color: blueviolet;
-    
-    color: white;
+
+.sapasabtn:active {
+     background-color: #FF6464;
 }
-.swara-2:focus {
-    background-color: red !important;
-    
-    color: white;
+.sapasabtn:focus {
+     background-color: #FF6464;
+}
+.sapasabtnmain {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 2rem;
+    border-radius: 5rem;
+    text-align: center;
+    align-content: center;
+    border: none;
+    background-color: #FFBD67;
+}
+
+.sapasabtnmain:focus {
+    background-color: #5BE7A9;
+}
+.sapasamaintable {
+    margin: 5rem auto;
+    border-radius: 5rem;
+    border-collapse: separate;
+     border-spacing: 3rem;
 }
