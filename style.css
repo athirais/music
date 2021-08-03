@@ -1,46 +1,201 @@
-.bg-cl {
-    background-color: yellow;
+.bg-yellow {
+    background-color: #F8FE85;
+
 }
 .box {
     margin: 50px;
 }
 h1 {
   text-align: center;
-font-size: 4rem;   
-    font-family: cursive;
+font-size: 4rem !important;   
+    font-family: cursive !important;
 }
 h2 {
   text-align: center; 
-    font-size: 2rem;  
-    font-family: cursive;
+    font-size: 3.5rem !important;  
+    font-family: cursive !important;
 }
 p {
-    font-size: 2rem; 
-    font-family: cursive;
+    font-size: 3rem !important; 
+    font-family: cursive !important;
 }
 .text {
     text-align: center; 
 }
-ul {
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+
+
+/* index */
+
+
+
+
+
+
+.contentlist {
+    align-content: center;
+    border-color: black !important;
+    border-style: dotted !important;
+    border-radius: 10px;
+}
+
+.contentblock {
+    
+    padding: 1.5rem 2.5rem;
+    margin: 0 10px;
+}
+
+.contentblock:hover {
+
+    background-color: #FFBD67;
+   
+    padding: 1.5rem 2.5rem;
+    margin: 0 10px;
+}
+
+}
+
+
+/* Lesson 1 */
+
+
+.originimg {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.center {
     text-align: center;
-    font-family: cursive;
-    font-size: 2rem;
-    list-style: none;
-    padding: 40px 0;
-    
 }
-li {
-    display: inline;
-    background-color: orange;
-    padding: 20px 40px;
-    margin: 0 20px;
-    
-}
-li:hover {
-    background-color: blueviolet;
-    padding: 30px 50px;
+
+.tablehover:hover {
+    background-color: #FF6464;
+    padding: 2rem;
+    border-radius: 10px;
     color: white;
 }
+
+.tablehover {
+    padding: 2rem;
+}
+
+.evolution:hover {
+    background-color: #5BE7A9;
+    padding: 2rem;
+    border-radius: 10px;
+    color: black;
+}
+
+.evolution {
+    padding: 2rem;
+}
+
+
+/* Lesson 2 */
+
+.purandara {
+    
+    border-radius: 10rem;
+    border-color: #FF6464;
+    border-style: dotted;
+    border-width: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5rem;
+    padding: 3.5rem;
+    border-collapse: separate;
+}
+
+.purandara:hover {
+    background-color: #5BE7A9;
+}
+
+.swarablock:hover {
+    background-color: #5BE7A9;
+    padding: 5rem 5.5rem;
+    border-radius: 100px;
+    color: black;
+}
+
+.swarablock {
+    padding: 5rem 5.5rem;
+    background-color: #FF6464;
+    color: white;
+    border-radius: 100px;
+    
+}
+
+
+.tableborder {
+    border: 0.2rem solid black; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border-radius: 5rem;
+    border-collapse: separate;
+    padding: 5rem;
+}
+
+th {
+    margin: 2rem !important;
+    padding: 2rem !important;
+} 
+
+.swaranamegreen {
+    padding: 2rem !important;
+    background-color: #5BE7A9;
+    padding: 10rem !important;
+}
+
+.swaranamegreen:hover{
+    background-color: #FF6464;
+}
+
+.swaranameyellow {
+    padding: 5rem !important;
+    padding: 10rem !important;
+}
+
+.swaranameyellow:hover{
+    background-color: #FF6464;
+}
+
+
+
+
+
+/* Lesson 3 */
+
+.praviktable {
+    margin-top: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0.5rem;
+    
+    border-radius: 5rem;
+    border-collapse: separate;
+    background-color: #FF6464;
+}
+
+
+.pravikcell {
+ 
+    border-radius: 5rem;
+    text-align: center;
+    color: white;
+    padding: 1.5rem 2rem;
+}
+
+.pravikcell:hover {
+    background-color: #5BE7A9;
+    color: black;
+}
+
+********************
 
 .swara {
     background-color: orange;
