@@ -78,7 +78,7 @@ a {
 }
 
 
-/* Lesson 1 */
+/* Origin of music */
 
 
 .originimg {
@@ -113,7 +113,7 @@ a {
 }
 
 
-/* Lesson 2 */
+/* Sapthaswaras */
 
 .purandara {
     
@@ -187,7 +187,7 @@ th {
 
 
 
-/* Lesson 3 */
+/* Prakruthi & Vikruthi swaras */
 
 .praviktable {
     margin-top: 5.5rem;
@@ -216,7 +216,7 @@ th {
 }
 
 
-/*Lesson 4*/
+/* Sapthaswaras: Birds and animals */
 
 
 .animalBird {
@@ -256,7 +256,7 @@ th {
 
 
 
-/* Lesson 5 */
+/* Sa Pa Sa */
 
 
 
@@ -322,7 +322,7 @@ display: flex;
 }
 
 
-/* Lesson 6 */
+/* Pancha Jathi */
 
 
 .jathitable {
@@ -349,7 +349,7 @@ background-color: #5BE7A9;
 }
 
 
-/* Lesson 7 */
+/* Thala */
 
 .thalatable {
     border: 0.5rem dotted black;
@@ -390,3 +390,63 @@ background-color: #5BE7A9;
     margin: auto;
 }
 
+/* Adi Thala */ 
+
+
+.aditalapic {
+    max-height: 10rem;
+    max-width: 10rem;
+    margin: auto;
+}
+
+.aditalatable {
+    border: 0.5rem dotted black;
+    border-radius: 5rem;
+    margin: 8rem auto;
+    padding: 2.5rem;
+    border-collapse: separate;
+    
+}
+
+.aditalath {
+    text-align: center;
+    border-bottom: 0.5rem dotted black;
+}
+
+.aditalarow {
+    padding: 1.5rem !important;
+    border-radius: 5rem !important;
+}
+.aditalarow:hover {
+background-color: #5BE7A9;
+
+}
+
+
+/* Sapthaswara Mayamalavagowla */
+
+.Mayamalavaswaratable {
+    margin: 2.5rem auto;
+    border-radius: 5rem;
+    border-collapse: separate;
+     border-spacing: 1rem;
+    background-color: white;
+    padding: 2rem;
+    border: 0.5rem dotted black;
+}
+
+
+.mayamalavaswarabtn {
+    padding: 1rem 2rem;
+    border-radius: 10rem;
+    border: none;
+    background-color: #FFBD67;
+}
+
+.mayamalavaswarabtn:focus {
+    background-color: #FF6464;
+}
+
+.mayamalavaswarabtn:hover {
+    background-color: #5BE7A9;
+}
